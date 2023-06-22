@@ -5,10 +5,15 @@
  */
 package test;
 
+import accesodatos.IAccesoDatos;
+
 /**
  *
  * @author samsung
  */
-public class ImplementacionOracle {
+public class ImplementacionOracle implements IAccesoDatos {
+
+    public ImplementacionOracle() {
+    }
     
 }
